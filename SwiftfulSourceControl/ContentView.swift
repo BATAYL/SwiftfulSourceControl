@@ -42,7 +42,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "heart")
+            Image(systemName: "house.fill")
                 .font(.largeTitle)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
