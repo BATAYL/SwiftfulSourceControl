@@ -51,6 +51,9 @@ struct ContentView: View {
             Button("Subscribe Now") {
                 
             }
+            Button("Subscribe Later") {
+                
+            }
         }
         .padding()
     }
