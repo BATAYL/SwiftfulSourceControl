@@ -45,12 +45,20 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     ForEach(0..<20) { _ in
-                        Text("Yo!")
+                        Image(systemName: "globe")
+                            .font(.largeTitle)
+                            .imageScale(.large)
+                            .foregroundStyle(.tint)
+                        Text("Some New Title")
+                        
+                        Button("Click Me") {
+                            
+                        }
+                        Rectangle()
                     }
                 }
             }
         }
-        .padding()
     }
 }
 
