@@ -11,6 +11,10 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             Text("Screen 2")
+            Text("Screen 2")
+
+            Text("Screen 2")
+
         }
     }
 }
