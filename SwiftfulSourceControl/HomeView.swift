@@ -14,10 +14,6 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             Text("Hello")
-
-        }
-        .onAppear {
-            // send analytics
         }
     }
 }
