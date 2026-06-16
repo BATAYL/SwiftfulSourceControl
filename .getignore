@@ -1,0 +1,54 @@
+# Xcode
+# ========================
+## User settings
+xcuserdata/
+*.xcuserdatad
+
+## Xcode 13+ and modern build artifacts
+.ca/
+DerivedData/
+build/
+Index.noindex/
+
+## Scheme user settings
+## Remove the line below if you deliberately want to share custom schemas
+PrivateSchemes/
+
+## Xcode Server / Bots
+Builds/
+
+## CoDesign / Security
+*.xccheckout
+*.moved-aside
+*.ipa
+*. dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+# ========================
+.build/
+Packages/
+Package.pins
+Package.resolved
+# Uncomment the line below if you do not want to cache SPM source dependencies
+# Packages/
+
+# CocoaPods
+# ========================
+# Uncomment the next line if you want to exclude your Pods directory from Git
+# Pods/
+*.xcworkspace
+
+# Carthage
+# ========================
+Carthage/Build/
+
+# macOS / OS-specific noise
+# ========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
